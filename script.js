@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     tagline.addEventListener('click', () => {
-        alert('Welcome to Noah's Food Trailer!');
+        alert('Welcome to Noah\'s Food Trailer!');
     });
 
     // Show trivia on page load
