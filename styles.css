@@ -91,3 +91,20 @@ footer ul li a {
 footer p {
     margin: 10px 0;
 }
+
+.surprise {
+    text-align: center;
+    margin: 20px;
+}
+
+.surprise p {
+    font-size: 1.2em;
+    color: #FFD700;
+    text-shadow: 1px 1px 3px #000;
+    animation: fade-in 2s ease-out;
+}
+
+@keyframes fade-in {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
