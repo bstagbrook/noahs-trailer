@@ -1,0 +1,93 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #FFA500; /* Bright orange */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FF4500; /* Darker orange */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3em;
+    font-family: 'Pacifico', cursive; /* Hollywood style font */
+    color: #FFD700; /* Gold color for Hollywood lighting effect */
+    text-shadow: 2px 2px 5px #000; /* Lighting effect */
+    animation: flicker 1.5s infinite alternate;
+}
+
+@keyframes flicker {
+    0% { opacity: 1; }
+    50% { opacity: 0.8; }
+    100% { opacity: 1; }
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFD700;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FF6347; /* Lighter orange */
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url('hero-background.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    color: #FF4500;
+    text-shadow: 1px 1px 3px #000;
+    animation: slide-in 2s ease-out;
+}
+
+@keyframes slide-in {
+    from { opacity: 0; transform: translateY(-50px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+footer {
+    background-color: #FF4500;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #FFD700;
+    text-decoration: none;
+}
+
+footer p {
+    margin: 10px 0;
+}
